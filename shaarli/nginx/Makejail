@@ -1,0 +1,6 @@
+PKG nginx
+SYSRC nginx_enable=YES
+
+COPY --verbose usr
+
+SERVICE nginx start

@@ -1,0 +1,8 @@
+PKG php82 php82-pear-Services_JSON php82-simplexml php82-mbstring php82-ctype php82-iconv php82-session php82-zlib php82-gd php82-intl php82-curl php82-gettext php82-ldap php82-filter sqlite3
+SYSRC php_fpm_enable=YES
+
+COPY --verbose usr
+
+CMD ln -s /usr/local/etc/php.ini-production /usr/local/etc/php.ini
+
+SERVICE php-fpm start

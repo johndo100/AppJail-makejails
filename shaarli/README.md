@@ -16,4 +16,4 @@ appjail makejail -j shaarli
 
 ## Demo
 
-I'm running a [Shaarli](https://github.com/shaarli/Shaarli) myself [here](https://shaarli.osaigon.com)
+I'm running a [Shaarli](https://github.com/shaarli/Shaarli) myself [here](https://shaarli.osaigon.com).
